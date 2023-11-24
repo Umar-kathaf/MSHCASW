@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Mohammed Sathak Hamid College of Arts and Science for Woman</title>
+    <link rel="stylesheet" href="MSHCASW_Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Sathak_Img/Logo.jpeg" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <a href="Login.html" class="hero-btn">Login in</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Principal</h1>
+    </section>
+    <!-- -----Blog Content----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <h2>Principal's Desk</h2>
+                <img src="Sathak_Img/Principal.jpeg">
+                <h2>Dr.K. RAJAM <br>(M.E.,Ph.D.) </h2>
+                <p>Dear all,</p>
+                <br>
+                <p>“Progress is impossible without change and those who cannot change their minds
+                    cannot change anything “ - George Bernard Shaw</p>
+                <br>
+                <p>It is my proud privilege to welcome all of you to this excellent institution Mohamed Sathak Hamid College of Arts & Science for Women. 
+                    All of us know that women are a great human resource and the role of women in the society is crucial for the development of the family and the nation.</p>
+                <br>
+                <p>This college is well established on the Rameshwaram Highway to promote high quality education for women in Ramanathapuram district. 
+                    Of course, we have a comfortable detached hostel to accommodate students from all over India. 
+                    I am sure that by the Grace of the Almighty, all students who enter the portals of this college will be empowered, because while persuing their studies, 
+                    importance will be given, not only to excel in their academics but also to improve their communication skills, quantitative reasoning and overall development.</p>
+                <br>
+                <p>We believe in providing our students, an environment rich in knowledge and varied opportunities to excel in various fields. 
+                    All this is achievable mainly because of the highly qualified dynamic and dedicated faculty and committed non teaching staff of our college. 
+                    This nurturing and caring environment will enable the students to experiment, discover and improve their various talents. 
+                    All the knowledge and experience gained in our institution will help them throughout their life.</p>
+                <br>
+                <p>The college also provides space for students to hone their talents in extracurricular 
+                   and co-curricular activities. The college developed research fervour through 
+                   workshops, training’s, conferences and seminars.</p>
+                <br>
+                <p>ALL THE VERY BEST</p>
+                <br>
+                <p>With Best Wishes,</p>
+        
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="8" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The Mohamed Sathak Trust is a charitable and educational organization established in 1973 Registered under Societies Registration Act by the Philanthropic <br>
+            Mohamed Sathak Family of Kilakarai,Ramnad District, Tamilnadu. The founder Chairman Late Alhaj S.M. Ahamed Jalaluddin,<br>
+            was the binding force behind the establishment of a trust for the charitable and educational needs of the poor and downtrodden people.</p>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+            <i class="fa-brands fa-twitter"></i>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> Easy Tuorials </p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

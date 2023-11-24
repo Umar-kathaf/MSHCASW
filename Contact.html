@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mohammed Sathak Hamid College of Arts and Science for Woman</title>
+    <link rel="stylesheet" href="MSHCASW_Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Sathak_Img/Logo.jpeg" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <a href="Login.html" class="hero-btn">Login in</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- -----Conatct Us----- -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15747.128440422699!2d78.8832155!3d9.35254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0197cb55dffecd%3A0xd0d5ad1ddc7dc59e!2sMohamed%20Sathak%20Hamid%20College%20of%20Arts%20and%20Science%20for%20Women!5e0!3m2!1sen!2sin!4v1700754218379!5m2!1sen!2sin" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Pokkuvarathu Nagar, Rameswaram Main Road,<br>Vani Post, Sakkarakottai (Panchayat),</h5>
+                        <p>Ramanathapuram-623536</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <a href=""><h5>Chairman-04567 - 232522 <br>
+                            Principal-04567 - 231511 <br>
+                            Principal +91 9486656877 <br>
+                            Principal +91 9442998255 <br>
+                            Office-04567 – 231522 <br>
+                            Office 04567 – 232511</h5></a>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span> 
+                        <h5>office.mshcasw@gmail.com,<br> principal.mshcasw@gmail.com</h5>
+                        <p>Email as your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- -----Footer----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Nellai College of Engineering, Maruthakulam (formerly National 
+        College of Engineering) is an ISO 9001:2015 certified Muslim 
+        minority institution approved by AICTE, <br> New Delhi, and affiliated to 
+        Anna University, Chennai. The college was inaugurated by Her 
+        Excellency, <br> the then Governor of Tamil Nadu, Justice Ms. 
+        M. FathimaBeevi on 7th September 2000.</p>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+            <i class="fa-brands fa-twitter"></i>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> Easy Tuorials </p>
+    </section>
+    <!-- -----Javascript for Toggle Menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
